@@ -1,0 +1,271 @@
+/*Alexander Rasho*/
+p1 {
+  color: yellow;
+}
+
+p2 {
+  /*classes for paragraphs*/
+  display: block;
+  margin-left: 720px;
+  font-size: 10px;
+  color: grey;
+  width: 200px
+}
+
+p3 {
+  display: block;
+  margin-left: 290px;
+  width: 700px;
+  font-size: 10px;
+  color: grey;
+}
+
+#text {
+  text-align: center;
+  font-size: 12px;
+}
+
+@font-face {
+  /*Import the font for the new york times text*/
+  font-family: OldLondon;
+  src: url(./OldLondon.woff)
+}
+
+ul {
+  list-style: none;
+}
+
+ul.a li:before {
+  content: "\2713\0020";
+  /*check mark will appear before specified ul.a*/
+}
+
+ul.a {
+  display: block;
+}
+
+.flex-containerOffersText>allaccessplustext {
+  /*information for allaccessplus*/
+  display: flex;
+  height: 800px;
+  width: 190px;
+  border: 1px;
+  border-color: black;
+  margin-left: 15px;
+  font-size: 12px;
+}
+
+.flex-containerOffersText>allaccesstext {
+  /*all access information class*/
+  display: flex;
+  height: 800px;
+  width: 190px;
+  border: 1px;
+  border-color: black;
+  margin-left: 15px;
+  font-size: 12px;
+}
+
+.flex-containerOffersText>basictext {
+  /*basic information class*/
+  display: flex;
+  margin-left: 170px;
+  height: 800px;
+  width: 190px;
+  border: 1px;
+  border-color: black;
+  font-size: 12px;
+}
+
+.flex-containerOffersText {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  background-color: white;
+  height: 860px;
+  width: 900px;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+/*child of a child class*/
+.flex-containerOffers>basic>basicButton {
+  display: block;
+  margin-top: 10px;
+  font-size: 13px;
+  height: 20px;
+  width: 160px;
+  border: 1px;
+  color: white;
+  background-color: #a6cbec;
+  border-radius: 7px;
+  text-align: center;
+}
+
+/*scoped flex box into button*/
+.flex-containerOffers>AllAccess>allAccessButton {
+  display: block;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  height: 20px;
+  width: 160px;
+  border: 1px;
+  color: white;
+  background-color: #5c81a2;
+  border-radius: 7px;
+  text-align: center;
+}
+
+/*scoped flex box into button*/
+.flex-containerOffers>AllAccessPlus>allAccessPlusButton {
+  display: block;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  height: 20px;
+  width: 160px;
+  border: 1px;
+  color: white;
+  background-color: #3d4954;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.flex-containerOffers>basic {
+  display: block;
+  flex-wrap: wrap;
+  background-color: #53aaf7;
+  color: white;
+  height: 100px;
+  width: 300px;
+  margin-left: 300px;
+  margin-right: 15px;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.flex-containerOffers>AllAccess {
+  display: block;
+  flex-wrap: nowrap;
+  background-color: #266aa6;
+  height: 100px;
+  width: 300px;
+  margin-right: 15px;
+  border-radius: 7px;
+  color: white;
+  padding: 10px;
+}
+
+.flex-containerOffers>AllAccessPlus {
+  display: block;
+  flex-wrap: wrap;
+  background-color: #2e2b2b;
+  height: 100px;
+  width: 300px;
+  border-radius: 7px;
+  color: white;
+  padding: 10px;
+}
+
+.flex-containerOffers {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  background-color: white;
+  height: 80px;
+  width: 900px;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.box2 writing {
+  color: white;
+  background-color: #F05347;
+  text-decoration-style: solid;
+}
+
+.box2 {
+  /*the box under the main heading*/
+  margin-top: 8px;
+  text-align: center;
+  padding: 30px 20px;
+  height: 110px;
+  weight: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #F05347;
+}
+
+.flex-containerlink>rightside {
+  /*right side of navbar*/
+  display: flex;
+  margin-left: 380px;
+  width: 40px;
+  font-size: 10px;
+  font-family: TimesNewRoman;
+}
+
+.flex-containerlink>mid {
+  /*middle of navbar*/
+  list-style-type: none;
+  justify-content: space-between;
+  display: flex;
+  overflow: hidden;
+  margin-left: 300px;
+  padding: 0;
+  width: 320px;
+  text-align: center;
+  font-size: 12px;
+  float: left;
+  font-family: TimesNewRoman;
+}
+
+.flex-containerlink>leftside {
+  /*left of navbar*/
+  background-color: #;
+  width: 180px;
+  margin-left: 20px;
+  text-align: left;
+  line-height: 15px;
+  font-size: 20px;
+  font-family: OldLondon;
+}
+
+.flex-containerlink {
+  display: flex;
+  flex-wrap: nwrap;
+  background-color: White;
+  margin-top: 15px
+}
+
+.flex-container1>div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container1 {
+  /*first flex container*/
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 150px;
+}
+
+.box1 {
+  /*main header box*/
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 0px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  text-decoration: underline;
+  height: 17px;
+}
