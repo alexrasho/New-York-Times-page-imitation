@@ -1,0 +1,90 @@
+/*Alexander Rasho page 2*/
+
+@font-face {
+  /*Import the font for the new york times text*/
+  font-family: OldLondon;
+  src: url(./OldLondon.woff)
+}
+
+p2 {
+  display: block;
+    font-size: 22px;
+    margin-left: 100px;
+    margin-top: 30px;
+} /*repeated paraph style*/
+
+p3 {
+  display: block;
+  margin-left: 100px;
+  color: blue;
+}/*link imitation style*/
+
+p4{
+  display: block;
+  margin-left: 180px;
+  margin-right: 280px;
+} /*repeated paraph style*/
+
+.button1 > inline {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 14px;
+} /*View all FAQ Button text settings*/
+
+.button1 {
+  margin-left: 100px;
+  border-radius: 4px;
+  display: block;
+  height:30px;
+  width: 200px;
+  background-color: #175bd3;
+  text-align: center;
+  color:white;
+  margin-bottom: 16px;
+} /*View all FAQ Button*/
+
+.flex-container2>div>oldfont {
+  font-family: OldLondon;
+  font-size: 20px;
+}
+
+.flex-container2>div { /*flex container for footer contents*/
+  display: block;
+  flex-wrap: wrap;
+  margin-left: 80px;
+  height: 300px;
+  margin-right: 20px;
+  color: white;
+  margin-top: 40px;
+}
+
+.flex-container1>div { /*small grey boxes*/
+  display: block;
+  background-color: #d8dfe5;
+  height: 120px;
+  width: 380px;
+  color: black;
+  margin: 10px;
+  text-align: left;
+  font-size: 15px;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+.flex-container2 { /*flex container for footer*/
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  height: 300px;
+  margin-right: 100px;
+  background-color: #1b1612;
+}
+
+.flex-container1 {
+  /*first flex container for small grey boxes*/
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  height: 600px;
+  margin-right: 100px;
+}
